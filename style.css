@@ -4,4 +4,22 @@ html {
 
 .nav-link:hover{
     color: #ee9f00 !important;
+    
+}
+
+.current-page {
+    color: #ee9f00 !important;
+}
+
+img {
+    padding-top: 15px;
+}
+
+.col-4 img:hover {
+    filter:brightness(120%);
+}
+
+.col-6 img:hover {
+    /* Complicated way to color a white image */
+    filter:brightness(50%) sepia(100%) hue-rotate(7deg) saturate(10000%);
 }
