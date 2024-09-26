@@ -10,29 +10,21 @@
 </head>
 <body>
     <div class="container-fluid bg-black">
-        <div class="row">
+        <div class="row justify-content-center">
             <!-- Left Section -->
-            <div class="col-lg-9 col-md-8 col-sm-12">
-                <div class="row g-3">
-                    <div class="col-4">
-                        <img src="./Pictures/1.jpg" class="img-fluid" alt="Image 1" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage('./Pictures/1.jpg', 'Aeriel View of Campus')">
-                        <img src="./Pictures/2.jpg" class="img-fluid" alt="Image 1" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage('./Pictures/8.jpg', 'Campus')">
-                        <img src="./Pictures/7.jpg" class="img-fluid" alt="Image 1" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage('./Pictures/7.jpg', 'Mascot')">
+            <div class="col-lg-3 col-md-8 col-sm-12 text-white">
+                <form class="p-5">
+                    <h3 class="text-center">Join the mailing list</h3>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                      <small id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</small>
                     </div>
-                    <div class="col-4">
-                        <img src="./Pictures/8.jpg" class="img-fluid" alt="Image 2" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage('./Pictures/2.jpg', 'Students')">
-                        <img src="./Pictures/9.jpg" class="img-fluid" alt="Image 2" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage('./Pictures/5.jpg', 'Event')">
-                        <img src="./Pictures/3.png" class="img-fluid" alt="Image 2" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage('./Pictures/3.png', 'Student Pride')">
-                    </div>
-                    <div class="col-4">
-                        <img src="./Pictures/4.jpg" class="img-fluid" alt="Image 3" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage('./Pictures/9.jpg', 'Parade')">
-                        <img src="./Pictures/6.jpeg" class="img-fluid" alt="Image 3" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage('./Pictures/6.jpeg', 'Spirit')">
-                        <img src="./Pictures/5.jpg" class="img-fluid" alt="Image 3" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="setModalImage('./Pictures/9.jpg', 'Spirit')">
-                    </div>
-                </div>
+                    <button type="submit" class="btn btn-primary my-3">Submit</button>
+                  </form>
             </div>
             <!-- Right Section -->
-            <div class="col-lg-3 col-md-4 col-sm-12 bg-black text-white d-flex flex-column align-items-end p-3">
+            <div class="col-lg-9 col-md-4 col-sm-12 bg-black text-white d-flex flex-column align-items-end p-3">
                 <nav class="nav flex-column">
                     <h3 class="nav-heading p-3 text-white text-end">SHUTTER</h3>
                     <a class="nav-link text-white text-end p-0 mx-3 my-2" href="./index.html">Home</a>
@@ -42,13 +34,13 @@
                     <a class="nav-link current-page text-end p-0 mx-3 my-2" href="./contact.html">Contact</a>
                     <div class="row justify-content-end p-3 py-5">
                         <div class="col-6 col-md-2">
-                            <a href="#" target="_blank"><img src="./Pictures/facebook-app-round-white-icon.png" class="img-fluid" width="250px" alt="Image 1"></a>
+                            <a href="https://www.facebook.com/" target="_blank"><img src="./Pictures/facebook-app-round-white-icon.png" class="img-fluid" width="250px" alt="Image 1"></a>
                         </div>
                         <div class="col-6 col-md-2">
                             <a href="https://x.com/" target="_blank"><img src="./Pictures/x-social-media-white-icon.png" class="img-fluid" width="250px" alt="Image 1"></a>
                         </div>
                         <div class="col-6 col-md-2">
-                            <a href="#" target="_blank"><img src="./Pictures/instagram-white-icon.png" class="img-fluid" width="250px" alt="Image 1"></a>
+                            <a href="https://www.instagram.com/" target="_blank"><img src="./Pictures/instagram-white-icon.png" class="img-fluid" width="250px" alt="Image 1"></a>
                         </div>
                     </div>
                 </nav>
